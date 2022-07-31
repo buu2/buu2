@@ -1,0 +1,308 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 768px;;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+    .promo__wrapper {
+        margin-right: 40px;
+    }
+    .benefits__wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .consultation .container {
+        margin-left: 40px;
+    }
+    .slick-slide img {
+        width: 700px;
+    }
+    .catalog__content {
+        justify-content:space-around;
+    }
+    .feed__icon img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .feed__text {
+        margin-left: 0;
+        width: 560px;
+    }
+    .footer {
+        height: 530px;
+        &__info {
+            margin-top: 500px;
+            width: 300px;
+            height: 130px;
+            padding: 5px;
+        }
+        &__phone {
+                margin-top: 10px;
+                font-size: 18px;
+        }
+        &__address {
+           display: none;      
+        }
+        &__icons {
+            margin: 20px 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            color: #ffffff;
+            font-size: 11px;
+            span {
+                display: block;
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+    }
+    .benefits {
+        padding: 50px 0 45px 0;
+        &__wrapper {
+            margin: 0 auto;
+        }
+        &__icons {
+            margin-top: 0px;
+            display: block;
+        }
+        &__subtitle {
+            margin-top: 18px;
+        }
+        &__text {
+            margin: 0 auto;
+        }
+        &__icon {
+            margin-top: 30px;
+        } 
+    }
+    .consultation {
+        min-height: 580px;
+        padding: 50px 0 45px 0;
+            &__text {
+            font-size: 18px;
+        }
+    }
+    .title {
+        font-size: 20px;
+        &_left {
+            font-size: 26px;
+        }
+    }
+    .promo {
+        min-height: 450px;
+        padding-bottom: 45px ;
+        &__wrapper {
+            margin: 50px 40px 0 0;
+            align-items: center;
+        }
+        &__header {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subheader {
+            margin-top: 17px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .carousel {
+        padding: 50px 10px;
+        &__inner {
+            position: relative;
+            width: 500px;
+            margin: 0 auto;
+        }
+        .slick-prev, .slick-next {
+            display: none;
+        }
+        img {
+            width: 500px;
+        }
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tabs {
+            margin-top: 20px;
+        }
+        &__tab {
+            width: 160px;
+            font-size: 16px;
+        }
+        &__content {
+            margin-top: 20px;
+        }
+    }
+    .feed {
+        padding-bottom: 31px;
+        &__icons {
+            margin-top: 10px;
+        }
+        &__icon {
+            display: block;
+            margin-top: 40px;
+            text-align: center;
+        }
+        &__text {
+            margin: auto;
+            margin: 20px 30px 20px 30px;
+            width: 520px;
+        }
+        hr {
+            display: none;
+        }
+    
+    }
+}
+@media (max-width: 575px) {
+    .pageup img {
+        display: none;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+           display: none;
+        }
+    }
+    button.button {
+        width: 130px;
+    }
+    .promo {
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 35px;
+            width: 320px;
+        }
+        &__icon {
+            font-size: 10px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    button.button_main {
+        margin-top: 30px;
+        width: 200px;
+    }
+    .consultation {
+        min-height: 480px;
+    }
+    .consultation .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .title_left {
+        text-align: center;
+        font-size: 20px;
+    }
+    .consultation__text {
+        text-align: center;
+        font-size: 16px;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    button.button_submit {
+        width: 300px;
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+        }
+        img {
+            width: 300px;
+        }
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tab {
+            width: 90px;
+            height: 30px;
+            font-size: 10px;
+            margin: 0 2px;
+            line-height: 29px;
+        }
+    }
+    .feed {
+        padding-bottom: 31px;
+        &__icons {
+            margin-top: 10px;
+        }
+        &__icon {
+            margin-top: 30px;
+        }
+        &__text {
+            margin: 10px auto;
+            width: 310px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        br {
+            display: none;
+        }
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+    .footer {
+        height: 300px;
+        &__maps {
+            height: 300px;
+            width: 100%;
+        }
+        &__info {
+            margin-top: 410px;
+            width: 300px;
+            height: 90px;
+            padding: 5px;
+        }
+        &__phone {
+                margin-top: 0px;
+                font-size: 16px;
+        }
+        &__address {
+           display: none;      
+        }
+        &__icons {
+            margin: 5px 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+        iframe {
+            height: 500px;
+        }
+    }
+}
